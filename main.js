@@ -108,8 +108,7 @@ let Cards = () =>{
     <a href="#">${el.email}</a>
     <p class="city">${el.city}</p>
 </div>
-
-    `.join("");
+ `.join("");
     container.innerHTML = card;
 }
  Cards();
