@@ -1,6 +1,6 @@
 
 let container = document.getElementById("container");
-let data = [
+let datas = [
   {
     "id": 1,
     "firstName": "Alisher",
@@ -98,12 +98,12 @@ let data = [
     "city": "Nukus"
   }
 ]
-let Cards = (datas) =>{
-    let card = data.map(ei)=> `
+let Cards = () =>{
+    let Card = datas.map(el) => `
     <div key ={el.id}>
     <img src="https://images.unsplash.com/photo /id/${el.id}-1517841905240-472988babdf9?w=400&h=400&fit=crop " alt="rasm">
-    <h2 class="tetele">${el.firstName}</h2>
-    <h2 class="tetele">${el.lastName}</h2>
+    <h2 class="titele">${el.firstName}</h2>
+    <h2 class="titele">${el.lastName}</h2>
     <p class="age">${el.age}</p>
     <a href="#">${el.email}</a>
     <p class="city">${el.city}</p>
