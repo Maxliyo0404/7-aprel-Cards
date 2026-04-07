@@ -1,2 +1,5 @@
 
-let container = document.getElementById("container")
+let container = document.getElementById("container");
+let cards = [
+    
+]
