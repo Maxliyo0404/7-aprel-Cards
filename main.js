@@ -99,7 +99,7 @@ let datas = [
   }
 ]
 let Cards = () =>{
-    let Card = datas.map(el) => `
+    let Card = datas.map(el => `
     <div key ={el.id}>
     <img src="https://images.unsplash.com/photo /id/${el.id}-1517841905240-472988babdf9?w=400&h=400&fit=crop " alt="rasm">
     <h2 class="titele">${el.firstName}</h2>
@@ -108,7 +108,7 @@ let Cards = () =>{
     <a href="#">${el.email}</a>
     <p class="city">${el.city}</p>
 </div>
- `.join("");
+ `).join("");
     container.innerHTML = card;
 }
  Cards();
