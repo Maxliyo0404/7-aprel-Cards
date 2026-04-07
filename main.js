@@ -98,6 +98,7 @@ let data = [
     "shahar": "Nukus"
   }
 ]
-let Cards = (data) =>{
-    
+let Cards = (datas) =>{
+    let card = data.map(ei)=> `
+    `
 }
