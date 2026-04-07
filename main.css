@@ -40,7 +40,10 @@ a{
     font-size:15px;
     margin-bottom: 5px;
     text-transform: capitalize;
-    &:hover
+    &:hover{
+        color: #2980b9;
+        text-decoration: ;
+    }
 
 }
 .age{
