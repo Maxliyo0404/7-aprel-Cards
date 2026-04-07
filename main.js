@@ -65,28 +65,13 @@ let datas = [
     "email": "guli.ah@example.com",
     "city": "Termez"
   },
-  {
-    "id": 9,
-    "firstName": "Otabek",
-    "lastName": "Hoshimov",
-    "age": 33,
-    "email": "otabek.h@example.com",
-    "city": "Jizzakh"
-  },
-  {
-    "id": 10,
-    "firstName": "Nigora",
-    "lastName": "Qosimova",
-    "age": 25,
-    "email": "nigora.q@example.com",
-    "city": "Karshi"
-  },
+ 
  
 ]
 let Cards = () =>{
     let Card = datas.map((el) => `
     <div class="cards" key ={el.id}>
-    <img src="https://picsum.photos/200/300?random=${el.id} " alt="rasm">
+    <img class="image" src="https://picsum.photos/200/300?random=${el.id} " alt="rasm">
     <h2 class="titele">${el.firstName}</h2>
     <h3 class="titele">${el.lastName}</h3>
     <p class="age">${el.age}</p>
