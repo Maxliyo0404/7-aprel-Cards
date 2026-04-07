@@ -6,7 +6,10 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    background: snow;
 }
 .cards{
+    max-width: 23%;
+    min-height: 300px;
     
 }
