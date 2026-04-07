@@ -81,22 +81,7 @@ let datas = [
     "email": "nigora.q@example.com",
     "city": "Karshi"
   },
-  {
-    "id": 11,
-    "firstName": "Rustam",
-    "lastName": "Murodov",
-    "age": 30,
-    "email": "rustam.m@example.com",
-    "city": "Gulistan"
-  },
-  {
-    "id": 12,
-    "firstName": "Malika",
-    "lastName": "Ergasheva",
-    "age": 23,
-    "email": "malika.e@example.com",
-    "city": "Nukus"
-  }
+ 
 ]
 let Cards = () =>{
     let Card = datas.map((el) => `
