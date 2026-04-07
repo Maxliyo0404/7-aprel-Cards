@@ -3,99 +3,99 @@ let container = document.getElementById("container");
 let data = [
   {
     "id": 1,
-    "ism": "Alisher",
-    "familiya": "Navoiy",
-    "yosh": 28,
-    "email": "alisher@example.uz",
-    "shahar": "Toshkent"
+    "firstName": "Alisher",
+    "lastName": "Navoiy",
+    "age": 28,
+    "email": "alisher@example.com",
+    "city": "Tashkent"
   },
   {
     "id": 2,
-    "ism": "Zuhra",
-    "familiya": "Karimova",
-    "yosh": 24,
-    "email": "zuhra.k@example.uz",
-    "shahar": "Samarqand"
+    "firstName": "Zuhra",
+    "lastName": "Karimova",
+    "age": 24,
+    "email": "zuhra.k@example.com",
+    "city": "Samarkand"
   },
   {
     "id": 3,
-    "ism": "Bekzod",
-    "familiya": "Tursunov",
-    "yosh": 31,
-    "email": "bekzod31@example.uz",
-    "shahar": "Buxoro"
+    "firstName": "Bekzod",
+    "lastName": "Tursunov",
+    "age": 31,
+    "email": "bekzod31@example.com",
+    "city": "Bukhara"
   },
   {
     "id": 4,
-    "ism": "Laylo",
-    "familiya": "Usmonova",
-    "yosh": 22,
-    "email": "laylo.u@example.uz",
-    "shahar": "Farg'ona"
+    "firstName": "Laylo",
+    "lastName": "Usmonova",
+    "age": 22,
+    "email": "laylo.u@example.com",
+    "city": "Fergana"
   },
   {
     "id": 5,
-    "ism": "Jasur",
-    "familiya": "Aliyev",
-    "yosh": 35,
-    "email": "jasur_a@example.uz",
-    "shahar": "Namangan"
+    "firstName": "Jasur",
+    "lastName": "Aliyev",
+    "age": 35,
+    "email": "jasur_a@example.com",
+    "city": "Namangan"
   },
   {
     "id": 6,
-    "ism": "Madina",
-    "familiya": "Sodiqova",
-    "yosh": 27,
-    "email": "madina.s@example.uz",
-    "shahar": "Xiva"
+    "firstName": "Madina",
+    "lastName": "Sodiqova",
+    "age": 27,
+    "email": "madina.s@example.com",
+    "city": "Khiva"
   },
   {
     "id": 7,
-    "ism": "Sardor",
-    "familiya": "Rashidov",
-    "yosh": 29,
-    "email": "sardor.r@example.uz",
-    "shahar": "Andijon"
+    "firstName": "Sardor",
+    "lastName": "Rashidov",
+    "age": 29,
+    "email": "sardor.r@example.com",
+    "city": "Andijan"
   },
   {
     "id": 8,
-    "ism": "Guli",
-    "familiya": "Ahmedova",
-    "yosh": 26,
-    "email": "guli.ah@example.uz",
-    "shahar": "Termiz"
+    "firstName": "Guli",
+    "lastName": "Ahmedova",
+    "age": 26,
+    "email": "guli.ah@example.com",
+    "city": "Termez"
   },
   {
     "id": 9,
-    "ism": "Otabek",
-    "familiya": "Hoshimov",
-    "yosh": 33,
-    "email": "otabek.h@example.uz",
-    "shahar": "Jizzax"
+    "firstName": "Otabek",
+    "lastName": "Hoshimov",
+    "age": 33,
+    "email": "otabek.h@example.com",
+    "city": "Jizzakh"
   },
   {
     "id": 10,
-    "ism": "Nigora",
-    "familiya": "Qosimova",
-    "yosh": 25,
-    "email": "nigora.q@example.uz",
-    "shahar": "Qarshi"
+    "firstName": "Nigora",
+    "lastName": "Qosimova",
+    "age": 25,
+    "email": "nigora.q@example.com",
+    "city": "Karshi"
   },
   {
     "id": 11,
-    "ism": "Rustam",
-    "familiya": "Murodov",
-    "yosh": 30,
-    "email": "rustam.m@example.uz",
-    "shahar": "Guliston"
+    "firstName": "Rustam",
+    "lastName": "Murodov",
+    "age": 30,
+    "email": "rustam.m@example.com",
+    "city": "Gulistan"
   },
   {
     "id": 12,
-    "ism": "Malika",
-    "familiya": "Ergasheva",
-    "yosh": 23,
-    "email": "malika.e@example.uz",
-    "shahar": "Nukus"
+    "firstName": "Malika",
+    "lastName": "Ergasheva",
+    "age": 23,
+    "email": "malika.e@example.com",
+    "city": "Nukus"
   }
 ]
 let Cards = (datas) =>{
