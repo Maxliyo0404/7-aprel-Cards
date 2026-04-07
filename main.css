@@ -42,7 +42,7 @@ a{
     text-transform: capitalize;
     &:hover{
         color: #2980b9;
-        text-decoration: ;
+        text-decoration:underline ;
     }
 
 }
