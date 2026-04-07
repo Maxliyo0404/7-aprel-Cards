@@ -98,3 +98,6 @@ let data = [
     "shahar": "Nukus"
   }
 ]
+let Cards = (data) =>{
+    
+}
