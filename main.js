@@ -100,7 +100,7 @@ let datas = [
 ]
 let Cards = () =>{
     let Card = datas.map((el) => `
-    <div key ={el.id}>
+    <div class="cards" key ={el.id}>
     <img src="https://picsum.photos/200/300?random=${el.id} " alt="rasm">
     <h2 class="titele">${el.firstName}</h2>
     <h3 class="titele">${el.lastName}</h3>
